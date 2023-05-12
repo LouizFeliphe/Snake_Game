@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #tempLabel {
+            display: block;
+            font-size: 4rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <label for="">Enter a temperature:</label>
+    <input type="text" id="textBox"><br>
+    <label for="">Convert to:</label><br>
+    <input type="radio" name="unit" id="cbutton">
+    <label for="">Celsius</label><br>
+    <input type="radio" name="unit" id="fbutton">
+    <label for="">Fahreinheit</label><br>
+
+    <button type="button" id="button1" >Submit</button><br>
+    <label id="tempLabel">0</label>
+
+    <script src="index.js"></script>
+</body>
+</html>
